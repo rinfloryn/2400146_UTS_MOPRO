@@ -1,0 +1,40 @@
+# Dependencies
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Backend Express uploads
+backend-express/uploads/*
+!backend-express/uploads/.gitkeep
+
+# Android
+**/android/.gradle
+**/android/build
+**/android/app/build
+**/android/.idea
+**/android/local.properties
+**/android/*.iml
+**/android/.cxx
+**/android/.kotlin
+**/android/*.log
+**/android/app/*.log
+
+# iOS
+**/ios/build
+**/ios/Pods
+**/ios/*.xcworkspace
+**/ios/*.xcuserstate
+
+# Metro & Bundler
+**/.metro-health-check*
+**/bundle*
+
+# OS Files
+.DS_Store
+Thumbs.db
